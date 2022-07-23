@@ -31,7 +31,10 @@ Algorithm and Packages used in this repository:
 
 ## Luhn's algorithm -> This algorithm is simple checksum formula.
 
-    I have added this algorithm for validating of credit card numbers, I have added in the payment route to check the user input, if the user doesn't enter the valid card number then the system will not save the card information in the database and will send the error message to the user, if the card number is valid according to luhn's algorithm then user encrypted data will be save in the database
+    I have added this algorithm for validating of credit card numbers, I have added in the payment route to check the user input, 
+    if the user doesn't enter the valid card number then the system will not save the card information in the database and will 
+    send the error message to the user, if the card number is valid according to luhn's algorithm then user encrypted data will 
+    be save in the database
 
 ## Advanced Encryption Standard (AES) -> Encryption algorithm
 
