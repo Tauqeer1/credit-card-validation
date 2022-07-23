@@ -4,7 +4,7 @@
 
 First you clone the project using the following command :
 
-git clone https://github.com/AlaaMezian/NodeJs-backend-structure.git
+git clone https://github.com/Tauqeer1/credit-card-validation.git
 
 Install node version 16.15.0 to run this project
 
