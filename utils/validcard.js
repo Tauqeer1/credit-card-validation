@@ -13,7 +13,7 @@ validCardNumber = (cardNumber) => {
   let cardNo = cardNumber.split('');
   let totalSum = 0;
   for (let i = cardNo.length - 1; i >= 0; i--) {
-    if (i % 2 === 0) {
+    if (i % 2 === 1) {
       let product = cardNo[i] * 2;
       if (product > 9 && product < 100) {
         let sum = sumOfProduct(product);
