@@ -1,0 +1,11 @@
+{
+  "development": {
+    "url": "postgres://postgres:postgres123@localhost:5432/payment",
+    "username": "postgres",
+    "password": "postgres123",
+    "database": "payment",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
