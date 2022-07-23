@@ -41,7 +41,9 @@ Algorithm and Packages used in this repository:
 
 ## Advanced Encryption Standard (AES) -> Encryption algorithm
 
-    The main reason of using this algorithm over other is, when we have constrained environment like we can encrypt and decrypt in the same environment
+    The main reason of using this algorithm over other is, when we have 
+    constrained environment like we can encrypt and decrypt 
+    in the same environment
 
     Different modes of this algorithm.
 
@@ -51,8 +53,16 @@ Algorithm and Packages used in this repository:
         - OFB (Output feedback mode)
         - CTR (Counter mode mode)
 
-    I have used **aes-256-cbc** algorithm, here 256 is the size of key which means it takes 256 bits as input and output 256 bits of encrypted cipher text, the longer the encryption key the more difficult the algorithm is to hack and cbc is the mode of algorithm which stands for cipher block chaining.
+    I have used **aes-256-cbc** algorithm, here 256 is the size of key which means 
+    it takes 256 bits as input and output 256 bits of encrypted cipher text, 
+    the longer the encryption key the more difficult the algorithm is to 
+    hack and cbc is the mode of algorithm which stands for cipher block chaining.
 
 
-    In Cipher Block Chaining (CBC) mode, an initialization vector (IV) is added to the first block of plaintext before encryption and the resultant cipher text is added to the next block of plaintext before encryption, and so on. Decryption is the reverse process. The IV does not need to be kept secret and must be communicated to the receiving party along with the cipher text.
+    In Cipher Block Chaining (CBC) mode, an initialization vector (IV) 
+    is added to the first block of plaintext before encryption and 
+    the resultant cipher text is added to the next block of plaintext 
+    before encryption, and so on. Decryption is the reverse process. 
+    The IV does not need to be kept secret and must be communicated 
+    to the receiving party along with the cipher text.
     Due to IV factor I have used this mode of algorithm
